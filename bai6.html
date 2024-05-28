@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 6</title>
+</head>
+<body>
+<script>
+    function checkInteger(input) {
+        if (input > 0) {
+            return Number.isInteger(input);
+        } else {
+            return false;
+        }
+    }
+
+
+    // function laSoNguyenDuong(value){
+    //     return (Number.isInteger(value) && value > 0);
+    // }
+    let input = +prompt('Nhap vao day: ');
+   let result = checkInteger(input);
+    // let result = laSoNguyenDuong(input);
+    alert(result);
+</script>
+</body>
+</html>

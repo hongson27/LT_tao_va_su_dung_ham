@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function circle(radius) {
+        let area = radius * radius * Math.PI;
+        let perimeter = 2 * radius * Math.PI;
+        return 'Chu vi la: ' + perimeter + ' Dien tich la: ' + area;
+    }
+    let input = +prompt('Nhap vao day:');
+    let screen = circle(input);
+    alert(screen);
+</script>
+</body>
+</html>

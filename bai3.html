@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 3</title>
+</head>
+<body>
+<script>
+    function factorial(a) {
+        if (a === 0) {
+            return 1;
+        } else {
+            return (a * factorial(a - 1));
+        }
+    }
+    let input = +prompt('Nhap vao day:');
+    let b = factorial(input);
+   alert('Giai thua la: ' + b);
+</script>
+</body>
+</html>
